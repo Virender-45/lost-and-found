@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Reported Items | Lost & Found</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            Lost<span>&</span>Found
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="report.html">Report Item</a>
+            <a href="items.html" class="active">List of Items</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+
+    </nav>
+
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+
+        <div class="banner-icon">
+            <i class="fa-solid fa-list-check"></i>
+        </div>
+
+        <h1>Reported Items</h1>
+
+        <p>
+            Browse all reported lost and found items.
+            You may find what you are looking for here.
+        </p>
+
+    </section>
+
+
+    <!-- Items Section -->
+    <section class="items-page">
+
+        <div class="items-heading">
+
+            <div>
+                <h2>All Reported Items</h2>
+                <p>Find details of lost and found belongings.</p>
+            </div>
+
+            <a href="report.html" class="add-item-btn">
+                <i class="fa-solid fa-plus"></i>
+                Report New Item
+            </a>
+
+        </div>
+
+
+        <!-- Filter -->
+        <div class="filter-box">
+
+            <div class="filter-title">
+                <i class="fa-solid fa-filter"></i>
+                Filter Items
+            </div>
+
+            <select id="filterStatus">
+                <option value="All">All Items</option>
+                <option value="Lost">Lost Items</option>
+                <option value="Found">Found Items</option>
+            </select>
+
+        </div>
+
+
+        <!-- Items will appear here -->
+        <div id="itemList" class="item-list">
+
+            <p>Loading reported items...</p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="contact">
+
+        <div class="footer-content">
+
+            <div>
+                <h2>Lost & Found</h2>
+                <p>Helping people reconnect with their belongings.</p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="report.html">Report Item</a>
+                <a href="items.html">List of Items</a>
+            </div>
+
+            <div>
+                <h3>Contact Us</h3>
+                <p><i class="fa-solid fa-envelope"></i>
+                dheeraj.75336@gmail.com</p>
+
+                <p><i class="fa-solid fa-location-dot"></i>
+                Dharamshala (Himachal Pradesh)</p>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            Lost & Found Management System | MCA Project
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

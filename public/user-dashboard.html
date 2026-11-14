@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard | Lost & Found</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Lost<span>&</span>Found</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="items.html">All Items</a>
+            <a href="report.html">Report Item</a>
+            <a href="my-reports.html">My Reports</a>
+            <button class="nav-button" id="logoutButton">Logout</button>
+        </div>
+    </nav>
+    <section class="page-banner">
+        <h1>User Dashboard</h1>
+        <p id="welcomeText">Loading your account...</p>
+    </section>
+    <section class="items-page dashboard-grid">
+        <a class="dashboard-card" href="items.html">
+            <h2>Browse Items</h2>
+            <p>View approved lost and found reports.</p>
+        </a>
+        <a class="dashboard-card" href="report.html">
+            <h2>Report an Item</h2>
+            <p>Submit a lost or found item for review.</p>
+        </a>
+        <a class="dashboard-card" href="my-reports.html">
+            <h2>My Reports</h2>
+            <p>Track approval and resolution status.</p>
+        </a>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
